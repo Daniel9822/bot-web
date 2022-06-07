@@ -1,0 +1,339 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: radial-gradient(circle at 37.59% 41.31%, #ddc2fb 0, #b8a8d2 25%, #948ca8 50%, #73707e 75%, #575759 100%);
+
+
+}
+
+.hero{
+    background-image: radial-gradient(circle at 37.59% 41.31%, #ddc2fb 0, #b8a8d2 25%, #948ca8 50%, #73707e 75%, #575759 100%);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+   
+}
+
+.hero__nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-bottom: 55px;
+   
+
+}
+
+.nav__logo{
+    color: #330867;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 2px 3px 5px #330867;
+
+}
+
+
+
+.nav__links a{
+    margin: 0 3px;
+    text-decoration: none;
+    color: #330867;
+    cursor: pointer;
+    font-weight: bold;
+    transition: ease .3s;
+    text-shadow: 2px 3px 5px #330867;
+    
+
+    
+}
+
+.nav__links a:hover{
+    color: white;
+}
+
+/* .nav__logo span{
+    color: 
+} */
+
+.section__titulo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+
+}
+
+.section__h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 100px 50px 101px 50px ;
+    color: #44088e;
+    text-shadow: 4px 3px 5px black;
+    
+    
+    
+}
+
+.section__img{
+    width: 100%;
+    height:  100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.ilustracion__img{
+   
+    filter: drop-shadow(5px 5px 5px #330867);
+
+  
+    width: 300px;
+
+
+}
+
+
+
+.section__info {
+    display: flex;
+    
+    margin-bottom: 200px;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    color: #3f0980;
+}
+
+
+/*CARD BOT */
+
+
+.card{
+ 
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    background-image: linear-gradient(to top, #30cfd0 0%, #5c0bbe 100%);    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: .1px;
+   
+    
+}
+
+.div_parrafo{
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+.color{
+    font-size: 20px;
+    height: 200px;
+    padding-top: 57px;
+    margin: 0 20px;
+    
+
+}
+
+.card__posicion{
+    color: #330867;
+    font-weight: bold;
+    margin: 0 80px;
+    
+}
+
+.card__position{
+    color: #330867;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 13px;
+}
+
+
+
+.card__person{
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/pain_user.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 105px;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid white;
+    filter: drop-shadow(5px 10px 5px #330867);
+
+    
+}
+
+.card__name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #330867;
+    text-shadow: 2px 2px 5px #330867ab;
+}
+
+.card__media{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__links{
+    width: 25%;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    margin: 20px 10px;
+
+}
+
+.bots{
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: -10px;
+    
+}
+
+
+.card__whatsapp{
+    width: 40px;
+    height: 40px;
+    background-image: url(./assets/whatsapp.svg);
+}
+
+.card__whatsapp:hover{
+    filter: drop-shadow(4px 5px 10px #0100017a);
+}
+
+.bot_card{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+    
+    
+    
+    
+}
+
+.bot2__img{
+    background-image: url(/assets/nagato.webp);
+}
+
+
+
+.bot__img{
+    background-image: url(/assets/iachi.jpg)
+}
+
+.contenedor{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.more__info{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+
+    
+}
+
+.info__sha{
+    text-shadow: 2px 3px 5px black;
+   
+}
+
+.more__info h3{
+    font-size: 40px;
+    color: #330867;
+    text-transform: uppercase;
+    
+   
+}
+
+
+.more__li{
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+    color:#330867 ;
+    
+    
+}
+
+.more__p{
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: #330867;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+.wave{
+    background-image: url(/assets/wave.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+@media(max-width:510px){
+    .contenedor{
+        height: 800px;
+        
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .more__info{
+        padding-top: 63px;
+        
+    }
+}
+
+
+@media(max-width:290px){
+    .ilustracion__img{
+        width: 200px;
+    }
+}
+
